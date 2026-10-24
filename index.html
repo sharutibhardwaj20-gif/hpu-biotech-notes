@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="HPU B.Sc. Biotechnology study hub with semester-wise notes, revision resources and practice questions.">
+  <title>HPU Biotech Notes | B.Sc. Biotechnology Study Hub</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="HPU Biotech Notes home">
+      <span class="brand-mark">🧬</span>
+      <span><strong>HPU Biotech Notes</strong><small>B.Sc. Biotechnology Study Hub</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav id="mainNav">
+      <a href="#semesters">Semesters</a>
+      <a href="#resources">Resources</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">FOR HPU BIOTECHNOLOGY STUDENTS</span>
+        <h1>Learn biotechnology.<br><span>One topic at a time.</span></h1>
+        <p>Find organised study notes, revision guides and practice questions for B.Sc. Biotechnology. Resources will be added and checked against the relevant HPU syllabus.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#semesters">Explore notes <span aria-hidden="true">→</span></a>
+          <a class="button secondary" href="#resources">Study resources</a>
+        </div>
+        <p class="note">Student-friendly resources · English notes · Built for revision</p>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="dna">🧬</div>
+        <div class="floating-card card-a"><span>01</span><strong>Cell Biology</strong><small>Build the basics</small></div>
+        <div class="floating-card card-b"><span>02</span><strong>Genetics</strong><small>Understand inheritance</small></div>
+        <div class="floating-card card-c"><span>03</span><strong>Microbiology</strong><small>Explore microorganisms</small></div>
+      </div>
+    </section>
+
+    <section class="search-section" aria-label="Search study resources">
+      <div>
+        <h2>What are you studying today?</h2>
+        <p>Search the resources currently listed on this website.</p>
+      </div>
+      <label class="search-box">
+        <span aria-hidden="true">⌕</span>
+        <input id="searchInput" type="search" placeholder="Search notes, subjects or questions…" autocomplete="off">
+      </label>
+      <p id="searchStatus" class="search-status" aria-live="polite"></p>
+    </section>
+
+    <section class="section" id="semesters">
+      <div class="section-heading">
+        <div><span class="eyebrow">YOUR STUDY ROADMAP</span><h2>Explore by semester</h2></div>
+        <p>Choose a semester to find its subjects and resources. Confirm the current HPU course structure before relying on a semester listing.</p>
+      </div>
+      <div class="semester-grid" id="semesterGrid">
+        <article class="semester-card searchable" data-search="semester 1 first year fundamentals introductory notes">
+          <div class="semester-number">01</div><h3>Semester 1</h3><p>Foundational topics and introductory concepts.</p><a href="#resources">View resources <span>→</span></a>
+        </article>
+        <article class="semester-card searchable" data-search="semester 2 second year core concepts notes">
+          <div class="semester-number">02</div><h3>Semester 2</h3><p>Core concepts and subject-wise revision.</p><a href="#resources">View resources <span>→</span></a>
+        </article>
+        <article class="semester-card searchable" data-search="semester 3 third semester biotechnology notes">
+          <div class="semester-number">03</div><h3>Semester 3</h3><p>Build understanding across biotechnology topics.</p><a href="#resources">View resources <span>→</span></a>
+        </article>
+        <article class="semester-card searchable" data-search="semester 4 fourth semester biotechnology notes">
+          <div class="semester-number">04</div><h3>Semester 4</h3><p>Organised notes for deeper subject learning.</p><a href="#resources">View resources <span>→</span></a>
+        </article>
+        <article class="semester-card searchable" data-search="semester 5 fifth semester biotechnology notes">
+          <div class="semester-number">05</div><h3>Semester 5</h3><p>Revision material and practice resources.</p><a href="#resources">View resources <span>→</span></a>
+        </article>
+        <article class="semester-card searchable" data-search="semester 6 sixth semester biotechnology notes">
+          <div class="semester-number">06</div><h3>Semester 6</h3><p>Final-semester learning and exam preparation.</p><a href="#resources">View resources <span>→</span></a>
+        </article>
+      </div>
+      <div id="noResults" class="no-results" hidden>No matching resources found. Try another keyword.</div>
+    </section>
+
+    <section class="resources-section" id="resources">
+      <div class="section-heading">
+        <div><span class="eyebrow">STUDY SMARTER</span><h2>Learning resources</h2></div>
+        <p>These are starter categories. Add your verified notes and PDFs when ready.</p>
+      </div>
+      <div class="resource-grid">
+        <article class="resource-card searchable" data-search="free notes downloadable pdf chapter notes">
+          <div class="resource-icon">📄</div><span class="tag free-tag">FREE</span><h3>Study Notes</h3><p>Topic-wise explanations and concise revision notes.</p><span class="resource-foot">Resources coming soon</span>
+        </article>
+        <article class="resource-card searchable" data-search="important questions practice exam revision">
+          <div class="resource-icon">✍️</div><span class="tag free-tag">FREE</span><h3>Important Questions</h3><p>Practice questions for self-assessment and revision.</p><span class="resource-foot">Resources coming soon</span>
+        </article>
+        <article class="resource-card searchable" data-search="premium detailed notes study packs paid pdf">
+          <div class="resource-icon">⭐</div><span class="tag premium-tag">PREMIUM</span><h3>Detailed Notes</h3><p>Planned extended notes and study packs.</p><span class="resource-foot">Not available yet</span>
+        </article>
+      </div>
+      <div class="notice"><strong>Accuracy first:</strong> This is a starter website template, not an official HPU website. Syllabus mapping and study materials must be verified before publication. Upload only content you created or have permission to share.</div>
+    </section>
+
+    <section class="about-section" id="about">
+      <div class="about-icon">🔬</div>
+      <div><span class="eyebrow">ABOUT THIS PROJECT</span><h2>Made for curious biotech learners.</h2><p>HPU Biotech Notes is an independent student resource project intended to make study material easier to organise. It is not affiliated with or endorsed by Himachal Pradesh University.</p></div>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand footer-brand" href="#"><span class="brand-mark">🧬</span><span><strong>HPU Biotech Notes</strong><small>Study. Revise. Grow.</small></span></a>
+    <p>Independent educational resource · Not an official HPU website</p>
+    <span>© <span id="year"></span> HPU Biotech Notes</span>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
